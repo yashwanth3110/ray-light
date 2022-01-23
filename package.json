@@ -1,0 +1,29 @@
+{
+    "name": "ray-light",
+    "displayName": "(ray-light)",
+    "description": "A light and easy to use theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.63.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Yash theme",
+                "uiTheme": "vs",
+                "path": "./themes/Yash theme-color-theme.json"
+            },
+            {
+                "label": "Yash theme alternate",
+                "uiTheme": "vs",
+                "path": "./themes/yash alternate-color-theme"
+            }
+        ]
+    },
+    "dependencies": {
+        "vscode-textmate": "^6.0.0"
+    }
+}
